@@ -2,13 +2,13 @@ import {logo} from '../assets';
 
 const Hero = () => {
   return (
-    <header className='w-full flex justify-center items-center flex-col'>
-      <nav className='flex justify-between item-center w-full mb-10 pt-3'>
-        <img src={logo} alt="logo" className='w-28 object-contain'/>
+    <header className='flex flex-col items-center justify-center w-full'>
+      <nav className='flex justify-between w-full pt-3 mb-10 item-center'>
+        <img src={logo} alt="logo" className='object-contain w-28'/>
 
         <button
         type='button'
-        onClick={() => window.open('https://github.com')}
+          onClick={() => window.open('https://github.com/Stroller15/Summify')}
         className='black_btn'
         >Github</button>
       </nav>
