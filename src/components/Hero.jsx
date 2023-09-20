@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <header className='flex flex-col items-center justify-center w-full'>
       <nav className='flex justify-between w-full pt-3 mb-10 item-center'>
-        <img src={logo} alt="logo" className='object-contain w-28'/>
+        <h1 className='object-contain w-28 font-extrabold text-2xl orange_gradient'>Summify</h1>
 
         <button
         type='button'

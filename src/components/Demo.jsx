@@ -14,6 +14,9 @@ const Demo = () => {
 
   const [getSummary, {error, isFetching}] = useLazyGetSummaryQuery();
 
+
+
+
   useEffect(()=>{
     const articleFromLocalStorage = JSON.parse(localStorage.getItem("articles"));
 
@@ -21,6 +24,9 @@ const Demo = () => {
       setAllArticles(articleFromLocalStorage);
     }
   }, [])
+
+
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -39,12 +45,15 @@ const Demo = () => {
     }
   }
 
+
+
 const handleCopy = (copyUrl) => {
   setCopied(copyUrl);
   navigator.clipboard.writeText(copyUrl);
   setTimeout(() => setCopied(false), 3000 );
 }
   
+
 
 
   return (
