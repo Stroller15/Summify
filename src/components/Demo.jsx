@@ -57,7 +57,7 @@ const handleCopy = (copyUrl) => {
 
 
   return (
-    <div>
+    <div className="w-full max-w-xl">
       <section className="w-full max-w-xl mt-16">
         {/* search */}
         <div className="flex flex-col w-full gap-2">
