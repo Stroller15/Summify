@@ -21,7 +21,7 @@ const Hero = () => {
       </h1>
 
       <h2 className='desc'>
-        Introducing Summify: Your reading made simple <br /> Summify is an open-source article summarizer that converts lengthy articles into clear and concise summaries, enhancing your reading experience
+       Summify is an open-source article summarizer that converts lengthy articles into clear and concise summaries, enhancing your reading experience
       </h2>
     </header>
   )
