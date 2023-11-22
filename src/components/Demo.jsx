@@ -25,13 +25,9 @@ const Demo = () => {
     }
   }, [])
 
-
-
-
   const handleSubmit = async (e) => {
     e.preventDefault();
    
-    
     const {data} = await getSummary({articleUrl: article.url});
 
     if(data?.summary) {
@@ -123,12 +119,12 @@ const handleCopy = (copyUrl) => {
             </p>
           ) : (article.summary && (
             <div className="flex flex-col gap-3">
-              <h2 className="text-xl font-bold text-gray-600 font-satoshi">
+              <h2 className="text-xl font-bold text-white font-satoshi">
                 Article <span className="blue_gradient">Summary</span>
               </h2>
               
               <div className="summary_box">
-                <p className="text-sm font-medium text-gray-700 font-inter">{article.summary}</p>
+                <p className="text-sm font-medium text-white font-inter">{article.summary}</p>
                 
               </div>
             </div>
