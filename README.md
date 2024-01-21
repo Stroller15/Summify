@@ -45,7 +45,7 @@
 
 Summify is a user-friendly web application that simplifies the reading experience for online articles. Built using React and styled with Tailwind CSS, this app allows users to quickly summarize lengthy blog posts by entering their URL. Once the URL is provided, Summify taps into a robust external API, using advanced natural language processing (NLP) to generate concise and informative summaries.
 
-The combination of React's interactive features and Tailwind CSS's stylish design ensures a smooth and visually appealing interface, making it easy for users to extract key points from extensive content. With Summify, users can navigate through complex articles effortlessly, obtaining essential information without the need to read the entire post. This app aims to streamline the process of digesting online content, offering a convenient way to access valuable insights from lengthy blog articles.
+
 
 
 
